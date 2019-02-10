@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-    /* position: fixed; */
+    position: fixed;
 }
 
 .container {}
@@ -19,5 +19,3 @@ body {
     display: inline-block;
     font-size: 25px;
 }
-
-@import url("maps.css");
