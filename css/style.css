@@ -1,23 +1,69 @@
+/* @import url("maps.css"); */
+
 body {
     margin: 0;
     padding: 0;
 }
 
-.navbar {
-    /* position: fixed; */
-}
-
-.container {}
-
 .navbar-brand img {
-    vertical-align: top;
-    width: 30px;
-    height: 30px;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
 }
 
 .navbar-brand h1 {
     display: inline-block;
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
 }
 
-@import url("maps.css");
+.nav {
+    position: inherit;
+    right: 0;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+/* ============ MAPS =========== */
+
+.maps {
+    height: 800px;
+    background-image: linear-gradient(to right, #9890e3 0%, #b1f4cf 100%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 86% 75%, 86% 100%, 75% 76%, 0% 75%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 86% 75%, 86% 100%, 75% 76%, 0% 75%);
+}
+
+
+/* ============ Service 1 =========== */
+
+.service-1 {
+    height: 600px;
+}
+
+.cus-card {
+    /* border: .1px solid black; */
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.cus-card .fas.fa-desktop {
+    color: white;
+    font-size: 10px;
+    display: inline-block;
+}
+
+.cus-icon {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
