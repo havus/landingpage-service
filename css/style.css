@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img {
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-brand h1 {
+    display: inline-block;
+    font-size: 25px;
+}
